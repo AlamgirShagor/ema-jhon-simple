@@ -1,0 +1,50 @@
+.product-card{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0;
+}
+.product-img{
+    padding-right: 10px;
+}
+.product-info h3{
+    color: skyblue;
+    font-size: 18px;
+}
+.seller{
+    color: rgb(85, 83, 83);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+
+}
+.addCard{
+    width: 150px;
+    height: 25px;
+    font-weight:600;
+    background-color: gold;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 20px;
+}
+.addCard:hover{
+    cursor: pointer;
+    color: honeydew;
+    background-color: hotpink;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.addCard:focus{
+    border: 1px solid gold;
+    outline: none;
+}
+.shoppingIco{
+    margin-right: 3px;
+}

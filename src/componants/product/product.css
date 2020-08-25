@@ -1,0 +1,10 @@
+.shop-wrap{
+    display: flex;
+}
+.product-wrap{
+    width: 70%;
+    margin-left: 10%;
+    border-right: 2px solid lightgray;
+    margin-right: 1%;
+    padding-right: 5px;
+}
